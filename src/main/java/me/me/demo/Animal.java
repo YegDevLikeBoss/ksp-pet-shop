@@ -1,4 +1,4 @@
-package me.indychkov.demo;
+package me.me.demo;
 
 import javax.persistence.*;
 

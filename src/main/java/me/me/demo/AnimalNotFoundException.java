@@ -1,4 +1,4 @@
-package me.indychkov.demo;
+package me.me.demo;
 
 public class AnimalNotFoundException extends Exception {
     public AnimalNotFoundException(long id) {
