@@ -1,0 +1,6 @@
+org/yeghoyan/demo/AnimalNotFoundException.class
+org/yeghoyan/demo/CsaApplication.class
+org/yeghoyan/demo/AnimalRepository.class
+org/yeghoyan/demo/Animal.class
+org/yeghoyan/demo/AnimalController.class
+org/yeghoyan/demo/GreetingController.class

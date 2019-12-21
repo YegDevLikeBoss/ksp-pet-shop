@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: me.me.demo.CsaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.803 s <<< FAILURE! - in me.me.demo.CsaApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.data.web.config.SpringDataWebConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.NoClassDefFoundError: org/xmlbeam/config/XMLFactoriesConfig
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.data.web.config.SpringDataWebConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.NoClassDefFoundError: org/xmlbeam/config/XMLFactoriesConfig
+Caused by: java.lang.NoClassDefFoundError: org/xmlbeam/config/XMLFactoriesConfig
+Caused by: java.lang.ClassNotFoundException: org.xmlbeam.config.XMLFactoriesConfig
+
